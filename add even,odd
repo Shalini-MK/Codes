@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Sample{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int i=scan.nextInt();
+        int num=i;
+        int sum=0;
+    for(int i=1;i<=num;i++){
+            System.out.println(i);}
+         if(i%2==0)
+              { System.out.println("IS EVEN");
+                  sum=sum+i;
+              }
+         
+         else{
+             System.out.println("IS ODD");
+             sum=sum+i;
+         }
+     
+    }   
+        {System.out.println(sum);}
+}
+}
