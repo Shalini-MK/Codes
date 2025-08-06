@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class vowels{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        char alphabet=scan.next().charAt(0);
+        if(alphabet=='a'||alphabet=='e'||alphabet=='i'||alphabet=='o'||alphabet=='u'){
+            System.out.println("Vowels");
+        }
+        else{
+            System.out.println("Constants");
+        }
+    }
+}
