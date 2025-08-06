@@ -1,0 +1,22 @@
+class sample{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        String name=scan.next();
+        System.out.println("Name:"+name);
+        int age=scan.nextInt();
+        System.out.println("Age:"+age);
+        String department=scan.next();
+        System.out.println("Department:"+department);
+        int mark1=scan.nextInt();
+        System.out.println("Tamil mark:"+mark1);
+        int mark2=scan.nextInt();
+        System.out.println("English mark:"+mark2);
+        int mark3=scan.nextInt();
+        System.out.println("Maths mark:"+mark3);
+        int total=mark1+mark2+mark3;
+        System.out.println("Total:"+total);
+        double average=total/3;
+        System.out.println("Average mark:"+average);
+        
+    }
+}
