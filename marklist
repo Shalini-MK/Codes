@@ -14,22 +14,22 @@ class Switch_case {
       int e=scan.nextInt();
       int tot=a+b+c+d+e;
       System.out.println("Total Mark:"+tot);
-      int ave=tot/5;
+      int ave=500/tot;
       System.out.println("Average Mark:"+ave);
-      char v=scan.next().charAt(0); 
       
+      char v=' ';
       
-      if(ave<85){
-          v='a';
+      if(ave<2){
+          v='d';
       }
-      if(ave<75){
-          v='b';
-      }
-      if(ave<60){
+      if(ave<3){
           v='c';
       }
-      if(ave<50){
-          v='d';
+      if(ave<4){
+          v='b';
+      }
+      if(ave<5){
+          v='a';
       }
     
       switch(v)
@@ -54,4 +54,3 @@ class Switch_case {
      
     }
 }
-      
