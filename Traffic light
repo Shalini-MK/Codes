@@ -3,6 +3,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner scan=new Scanner(System.in);
+	    System.out.print("Enter colour:");
 	    String a=scan.next();
 	    switch(a){
 	        case "red":
@@ -10,17 +11,17 @@ public class Main
 	               System.out.println("stop");
 	               break;
 	            }
-	             case "yellow":
+	        case "yellow":
 	            {
 	               System.out.println("wait");
 	               break;
 	            }
-	             case "green":
+	        case "green":
 	            {
 	               System.out.println("go");
 	               break;
 	            }
-	            default:
+	        default:
 	            System.out.println("error");
 	    }
 	    
