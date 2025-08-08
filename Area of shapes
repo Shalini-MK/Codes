@@ -1,0 +1,104 @@
+
+/*
+//Area of trapezoid
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter a value: ");
+        int a=scan.nextInt();
+        System.out.print("Enter b value: ");
+        int b=scan.nextInt();
+        System.out.print("Enter h value: ");
+        int h=scan.nextInt();
+        
+        double area=0.5*(a+b)*h;
+        System.out.println("Area of trapezoid: "+area);
+        
+    }
+}
+*/
+
+//Area of circle
+/*
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter radius value: ");
+        int r=scan.nextInt();
+        
+        double area=3.14*r*r;
+        System.out.println("Area of circle:"+area);
+    }
+}
+*/
+
+//Area of ellipse
+/*
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter a value: ");
+        int a=scan.nextInt();
+        System.out.print("Enter b value: ");
+        int b=scan.nextInt();
+        
+        double area=3.14*a*b;
+        System.out.println("Area of Ellipse="+area);
+        
+    }
+}
+*/
+
+//Area of sector
+/*
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter radius value: ");
+        int r=scan.nextInt();
+        System.out.print("Enter angle value: ");
+        int b=scan.nextInt();
+        
+        double area=0.5*r*r*b;
+        System.out.println("Area of Sector:"+area);
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
