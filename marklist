@@ -19,16 +19,16 @@ class Switch_case {
       
       char v=' ';
       
-      if(ave<2){
+      if(ave<5){
           v='d';
       }
-      if(ave<3){
+      if(ave<4){
           v='c';
       }
-      if(ave<4){
+      if(ave<3){
           v='b';
       }
-      if(ave<5){
+      if(ave<2){
           v='a';
       }
     
@@ -48,9 +48,6 @@ class Switch_case {
                break;     
           default:
                System.out.println("************");
-    }
-                    
-                    
-     
+      }
     }
 }
