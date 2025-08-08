@@ -35,7 +35,7 @@ class Switch_case {
       switch(v)
       {
           case 'a':
-              System.out.println("Destination");
+              System.out.println("Destiction");
               break;
           case 'b':     
                System.out.println("First Class");
