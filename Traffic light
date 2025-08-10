@@ -27,3 +27,25 @@ public class Main
 	    
 }
 }
+
+//Additional program
+import java.util.Scanner;
+class Main {
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Traffic Light");
+        System.out.print("Enter traffic light colour: ");
+        String colour=scan.next();
+        if(colour.equals("red")){
+            System.out.println("Stop");
+        }
+        else if(colour.equals("yellow")){
+            System.out.println("Get Ready");
+        }
+        else if(colour.equals("green")){
+            System.out.println("Go");
+        }
+        else{
+            System.out.println("Invalid colour");
+        }
+    }
