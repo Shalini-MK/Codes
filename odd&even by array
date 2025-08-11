@@ -1,0 +1,26 @@
+//even number
+/*
+class Main {
+    public static void main(String[] args) {
+        int[]arr={2,12,54,65,68,20,61,75,36,80};
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                System.out.println(arr[i]);
+            }
+        }
+    }
+}
+*/
+
+//odd number
+
+class Main {
+    public static void main(String[] args) {
+        int[]arr={2,13,54,65,68,7,20,61,75,36,80};
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]%2!=0){
+                System.out.println(arr[i]);
+            }
+        }
+    }
+}
