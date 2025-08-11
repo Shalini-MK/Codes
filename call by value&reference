@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Sample1{
+    int a=10;
+    String b="hello";
+    char c='s';
+    double d=60.643d;
+    public static void area(Sample1 s){
+        Scanner scan=new Scanner(System.in);
+        int a1=scan.nextInt();
+        if(s.a==a1){
+            System.out.println(s.a);
+        }
+    }
+    public static void main(String[] args) {
+        Sample1 s=new Sample1();
+        int a=100;
+        area(s);
+    }
+}
