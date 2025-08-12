@@ -4,7 +4,7 @@ public class Main
            int [][]a={{2,5,9},
                        {1,2,3},
                        {8,3,6}};
-           int max=a;
+           int max=o;
            for(int[] row : matrix){
                for(int num : row){
                    if(num>max)
