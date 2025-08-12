@@ -1,0 +1,17 @@
+public class Main
+{
+        public static void main(String[] args) {
+           int [][]a={{2,5,9},
+                       {1,2,3},
+                       {8,3,6}};
+           int max=a;
+           for(int[] row : matrix){
+               for(int num : row){
+                   if(num>max)
+                   max=num;
+               }
+           }
+           System.out.println("Maximum element: "+max);
+
+            }
+}
