@@ -1,0 +1,18 @@
+import java.util.Scanner;
+ public class Sample{
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter a string:");
+        String a=scan.nextLine();
+        String b="";
+        
+        for(char c:a.toCharArray()){
+            if((c>='0'& c<='9')){
+                b+=c;
+            }
+        }
+        System.out.println(b);
+    }
+ }
+        
+        
