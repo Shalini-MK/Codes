@@ -1,0 +1,24 @@
+public class sample{
+    public static void main(String[] args){
+        StringBuffer sb=new StringBuffer("Hello");
+        
+        sb.append("World");
+        System.out.println("After Append: "+sb);
+        
+        sb.insert(5,"Beautiful");
+        System.out.println("After Insert: "+sb);
+        
+        sb.replace(7,15,"Amazing");
+        System.out.println("After Replace: "+sb);
+        
+        sb.delete(5,13);
+        System.out.println("After Delete: "+sb);
+        
+        sb.reverse();
+        System.out.println("After Reverse: "+sb);
+        
+        sb.capacity();
+        System.out.println("After Capacity: "+sb);
+    }
+}
+        
