@@ -1,0 +1,17 @@
+class Main1 {
+    System.out.print("hello");
+}
+class Main2 extends Main1{
+    System.out.print("hiiiii");
+    
+}
+public class Main3{
+    pubilc static void main(String [] args){
+        Main2 obj=new Main2;
+        a.Main1();
+        a.Main2();
+        
+    }
+}
+       
+    
