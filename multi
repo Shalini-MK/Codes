@@ -1,0 +1,18 @@
+class Main1 {
+    int a=5;
+}
+class Sample extends Main1{
+    void display(){
+    System.out.print("hiiiii");
+    }
+}
+public class Main3{
+    public static void main(String [] args){
+        Sample s=new Sample();
+        s.disp();
+        
+         System.out.print(s.a);
+        
+    }
+}
+       
